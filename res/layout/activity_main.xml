@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#0000FF" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#000000" >
+
+            <Button
+                android:id="@+id/morn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/morning_bus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#c12a0f" >
+
+            <Button
+                android:id="@+id/after"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/afternoon_bus " />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#00FF00" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ff9900" >
+
+            <Button
+                android:id="@+id/even"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/evenning_bus " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#001170" >
+
+            <Button
+                android:id="@+id/night"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/night_bus " />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#117000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000ff" >
+
+            <Button
+                android:id="@+id/teacher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/teachers_bus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF0000" >
+
+            <Button
+                android:id="@+id/numbers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/numbers" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

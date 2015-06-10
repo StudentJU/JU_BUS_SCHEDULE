@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JU_BUS_SCHEDULE</string>
+    <string name="action_settings">Settings</string>
+    <string name="morning_bus">সকালের  বাস</string>
+    <string name="afternoon_bus ">দুপুরের  বাস</string>
+    <string name="evenning_bus ">বিকালের  বাস</string>
+    <string name="night_bus ">রাতের  বাস</string>
+    <string name="teachers_bus">শিক্ষকদের  বাস</string>
+    <string name="numbers">জরুরী  নাম্বার </string>
+
+</resources>
